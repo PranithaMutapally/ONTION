@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: center;
+    font-style: inherit;
+    color: white;
+}
+.logo img{
+    padding-right: 3%;
+    width: 20%;
+    border-radius: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position:sticky;
+    top: 0;
+    cursor: pointer;
+} 
+.nav-list{
+    display: flex;
+    width: 60%;
+    align-items: center; 
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+.rightnav{
+    width:40%;
+    text-align: right;
+    color: white;
+    padding:  0px 30px;
+} 
+.rightnav button{
+    border-radius: 9px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    vertical-align: middle;
+}
+.background{
+    background: rgba(0,0,0,0.7) url(../images/image3.jpeg);
+    height: 30;
+    background-size : cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.text-big{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.text-small{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+
+.btn:hover{
+    color: white;
+    background-color: grey;
+}
+.aboutus{
+    background: darkslategray;
+    text-align: center;
+    justify-content: space-between;
+    padding: 7%;
+    font-size: 20px;
+    color:white;
+}
+.aboutus h2{
+    padding-bottom: 2%;
+    color: cornsilk;
+}
+.staff{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+    background-color: gainsboro;
+}
+.card-deck{
+    padding:10%;
+    background-color: gainsboro;
+   display: flex;
+   justify-content: space-evenly;
+}
+.card-header img{
+    width:200px;
+    height:200px;
+    padding:0% 5%;
+}
+.card-body{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.card-body .btn{
+    padding:10px 20px;
+    background-color: black;
+    color:white;
+}
+.card-body .btn:hover{
+    background-color: grey;
+    color:black;
+}
+.card-body h1{
+    opacity: 70%;
+}
+.card-body h3{
+    padding:2%;
+}
+.card-body:hover{
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2);
+}
+.coursespage{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: space-evenly;
+    padding:15%;
+}
+.coursespage li{
+    list-style: none;
+    font-size: 2rem;
+    color: whitesmoke;;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.first h1{
+    padding-top: 0%;
+    padding-bottom: 10%;
+    font-size: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: seagreen;
+}
+.first .list:hover{
+    background-color: seagreen;
+    color:black;
+    font-size: 1rem;
+}
+.second{
+    font-size: 1.4rem;
+    text-align: center;
+    width:20%;
+    color: white;
+    padding-left: 10%;
+}
+.second .certified,.list{
+    background-color: black;
+    color:white;
+}
+.second .certified:hover{
+    background-color: seagreen;
+    color:black;
+    font-size: 1rem;
+}
+.contactpage{
+    display: flex;
+    align-items: center;
+    background-color: darkslategrey;
+    justify-content: space-evenly;
+    padding: 7% ;
+}
+.contactpage p{
+    width: 70%;
+    text-align: center;
+    font-size: 15px;
+    padding:2% 2% 0% 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactpage i:hover{
+    color: brown;
+}
+.contactpage p:hover{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.mt-5{
+    padding:0%;
+}
