@@ -1,3 +1,3 @@
 # ONTION
 Education even from far away..
-An online educational website made using html ans css.
+An online educational website done using html ans css.
